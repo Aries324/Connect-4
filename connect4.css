@@ -1,81 +1,77 @@
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
 :root {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-h1, h3, p {
-    text-align: center;
-    
+h1,
+h3,
+p {
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 80px;
-    text-align:center;
-
+  font-family: "Luckiest Guy", cursive;
+  font-size: 80px;
+  text-align: center;
 }
 
-h3 { 
-    
-    font-size: 20px;
+h3 {
+  font-size: 20px;
 }
 
-.table{
-    position: relative;
-    display: flex;
-    margin: 0 auto;
-    /* align-content: center; */
-    flex-wrap: wrap;
-    padding: 0;
-    width: 560px;
-    
+.table {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  background-color: purple;
+  /* align-content: center; */
+  flex-wrap: wrap;
+  padding: 0;
+  width: 560px;
 }
 .playAgain {
-    background-color: red;
-    text-align: center;
-    width: 120px;
-    height: 40px;
-    font-size: 15px;
-    color: bold black;
-    position: relative;
-    top: 50;
-    left: 50;
-    
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  color: bold black;
+  position: relative;
+  top: 50;
+  left: 50;
 }
 
 .cell {
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    color: transparent; 
-    padding:0;
-    position: relative;
-    border: 3px #175dde solid;
-    border-radius: 50%;
-    margin: 5px;
-    z-index: 1;
-
-    
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  color: transparent;
+  padding: 0;
+  position: relative;
+  border: 3px #175dde solid;
+  border-radius: 50%;
+  margin: 5px;
+  z-index: 1;
 }
 
-.redDisc .yellowDisc{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-
+.redDisc .yellowDisc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-.redDisc{ 
-    background-color: red;
+.redDisc {
+  background-color: red;
 }
 
-.yellowDisc{
-    background-color: yellow;
+.yellowDisc {
+  background-color: yellow;
 }
 
-.row { 
-    display: flex;
-    text-align: center;
-    position: relative;
-    background-color: #1348a2;
+.row {
+  display: flex;
+  text-align: center;
+  position: relative;
+  background-color: #1348a2;
 }
